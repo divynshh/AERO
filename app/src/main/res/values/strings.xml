@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AERO</string>
+
+    <string-array name="Cities">
+        <item>Select City</item>
+        <item>Gurgaon</item>
+        <item>Delhi</item>
+
+
+    </string-array>
+</resources>
