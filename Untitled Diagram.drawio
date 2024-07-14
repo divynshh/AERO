@@ -1,9 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2024-07-14T09:48:48.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.6.5" etag="ISxLcpfVQRu7fRYBv6N3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-14T10:05:26.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Oeq3J2O-OALQtHeUbnT-" version="24.6.5" type="github">
   <diagram name="Page-1" id="5UzRJ42mAt-rpYMhr1IP">
-    <mxGraphModel>
+    <mxGraphModel dx="2309" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5-JFNTVQn3oIMdfMQjbw-1" target="5-JFNTVQn3oIMdfMQjbw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-1" value="Myntra" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="185" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="90" width="570" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-3" value="Myntra&#39;s Checklist Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-6" value="create Checklist &lt;br&gt;--&amp;gt; create tasks and add them to checklists." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="290" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-7" value="--&amp;gt; Check status of tasks (DONE/PENDING)&lt;br&gt;--&amp;gt; check status of checklists (DONE/PENDING)&lt;div&gt;&lt;br&gt;--&amp;gt; Bind Checklist with and order.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="330" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-JFNTVQn3oIMdfMQjbw-8" target="5-JFNTVQn3oIMdfMQjbw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-8" value="Runner&lt;br&gt;App&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;--&amp;gt; submit data against checklists tasks and mark them done.&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-JFNTVQn3oIMdfMQjbw-12" value="--&amp;gt; getChecklistAgainst a Order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
